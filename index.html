@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>VectorSense Trendy Landing</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;400&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+</head>
+<body>
+  <nav>
+    <div class="logo">VectorSense</div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#features">Features</a></li>
+      <li><a href="#team">Team</a></li>
+      <li><a href="#pricing">Pricing</a></li>
+      <li><a href="#testimonials">Testimonials</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="cta">Get Started</button>
+    <button id="darkmode-toggle" aria-label="Toggle dark mode">
+      <span id="dark-icon">🌙</span>
+      <span id="light-icon" style="display:none;">☀️</span>
+    </button>
+    <div class="hamburger" id="hamburger-menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </nav>
+  <header class="hero" id="home">
+  <div class="hero-bg-img"></div>
+  <div class="hero-content" data-aos="zoom-in">
+    <h1 data-aos="fade-down">Unleash AI Power for Your Business</h1>
+    <p data-aos="fade-up" data-aos-delay="200">Cutting-edge intelligence, automation, and analytics for next-gen enterprises.</p>
+    <button class="cta big" data-aos="fade-up" data-aos-delay="400">Request Demo</button>
+  </div>
+  <!-- AI Illustration removed -->
+</header>
+ <section class="features" id="features">
+  <div class="feature-card" data-aos="fade-right">
+    <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=600&q=80" alt="Analytics Dashboard" class="feature-img-real"/>
+    <h2>Intelligent Analytics</h2>
+    <p>Unlock insights from your data with our advanced analytics engine. Visualize trends, make smarter decisions, and stay ahead with real-time dashboards.</p>
+  </div>
+  <div class="feature-card" data-aos="zoom-in">
+    <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80" alt="Automation Workflow" class="feature-img-real"/>
+    <h2>Smart Automation</h2>
+    <p>Automate your workflows and boost productivity effortlessly. From task scheduling to intelligent triggers, let AI handle the repetitive work for you.</p>
+  </div>
+  <div class="feature-card" data-aos="fade-left">
+    <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=600&q=80" alt="Cloud AI Solutions" class="feature-img-real"/>
+    <h2>Scalable AI Solutions</h2>
+    <p>Grow your business with scalable AI that adapts and evolves. Our cloud-based platform ensures seamless integration and reliable performance as you expand.</p>
+  </div>
+</section>
+  <section class="team" id="team">
+    <h2 data-aos="fade-up">Meet the Team</h2>
+    <div class="team-members">
+      <div class="member" data-aos="fade-right" data-member="alex">
+        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Alex Brown"/>
+        <h3>Alex Brown</h3>
+        <p>Lead AI Engineer</p>
+      </div>
+      <div class="member" data-aos="zoom-in" data-member="sara">
+        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Sara Lee"/>
+        <h3>Sara Lee</h3>
+        <p>Product Designer</p>
+      </div>
+      <div class="member" data-aos="fade-left" data-member="mike">
+        <img src="https://randomuser.me/api/portraits/men/54.jpg" alt="Mike Doe"/>
+        <h3>Mike Doe</h3>
+        <p>Automation Specialist</p>
+      </div>
+      <div class="member" data-aos="fade-right" data-member="nina">
+        <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Nina Patel"/>
+        <h3>Nina Patel</h3>
+        <p>Data Scientist</p>
+      </div>
+      <div class="member" data-aos="zoom-in" data-member="james">
+        <img src="https://randomuser.me/api/portraits/men/12.jpg" alt="James Kim"/>
+        <h3>James Kim</h3>
+        <p>Backend Developer</p>
+      </div>
+      <div class="member" data-aos="fade-left" data-member="emily">
+        <img src="https://randomuser.me/api/portraits/women/12.jpg" alt="Emily Wang"/>
+        <h3>Emily Wang</h3>
+        <p>UI/UX Engineer</p>
+      </div>
+      <div class="member" data-aos="fade-right" data-member="josh">
+        <img src="https://randomuser.me/api/portraits/men/23.jpg" alt="Josh Smith"/>
+        <h3>Josh Smith</h3>
+        <p>DevOps Lead</p>
+      </div>
+      <div class="member" data-aos="zoom-in" data-member="olivia">
+        <img src="https://randomuser.me/api/portraits/women/50.jpg" alt="Olivia Taylor"/>
+        <h3>Olivia Taylor</h3>
+        <p>Marketing Manager</p>
+      </div>
+      <div class="member" data-aos="fade-left" data-member="liam">
+        <img src="https://randomuser.me/api/portraits/men/47.jpg" alt="Liam Harris"/>
+        <h3>Liam Harris</h3>
+        <p>AI Ethicist</p>
+      </div>
+      <div class="member" data-aos="fade-right" data-member="zoe">
+        <img src="https://randomuser.me/api/portraits/women/30.jpg" alt="Zoe Carter"/>
+        <h3>Zoe Carter</h3>
+        <p>Frontend Developer</p>
+      </div>
+    </div>
+  </section>
+  <div class="modal" id="bio-modal" style="display:none;">
+    <div class="modal-content">
+      <span class="close-btn" id="close-bio">&times;</span>
+      <div id="bio-details"></div>
+    </div>
+  </div>
+  <section class="pricing" id="pricing">
+    <h2 data-aos="fade-up">Pricing Plans</h2>
+    <div class="pricing-cards">
+      <div class="price-card" data-aos="fade-right">
+        <h3>Starter</h3>
+        <p class="price">$29/mo</p>
+        <ul>
+          <li>Basic Analytics</li>
+          <li>Email Support</li>
+          <li>Up to 1 user</li>
+        </ul>
+        <button class="cta choose-plan" data-plan="starter">Choose Plan</button>
+      </div>
+      <div class="price-card" data-aos="zoom-in">
+        <h3>Professional</h3>
+        <p class="price">$79/mo</p>
+        <ul>
+          <li>Advanced Analytics</li>
+          <li>Priority Support</li>
+          <li>Up to 10 users</li>
+        </ul>
+        <button class="cta choose-plan" data-plan="pro">Choose Plan</button>
+      </div>
+      <div class="price-card" data-aos="fade-left">
+        <h3>Enterprise</h3>
+        <p class="price">$199/mo</p>
+        <ul>
+          <li>All Features</li>
+          <li>Dedicated Support</li>
+          <li>Unlimited users</li>
+        </ul>
+        <button class="cta choose-plan" data-plan="enterprise">Choose Plan</button>
+      </div>
+    </div>
+  </section>
+  <div class="modal" id="plan-modal" style="display:none;">
+    <div class="modal-content">
+      <span class="close-btn" id="close-plan">&times;</span>
+      <div id="plan-details"></div>
+    </div>
+  </div>
+  <section class="testimonials" id="testimonials">
+    <h2 data-aos="fade-up">What Our Clients Say</h2>
+    <div class="testimonial-cards">
+      <div class="testimonial" data-aos="fade-right">
+        <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Client photo" />
+        <p>"VectorSense revolutionized our data workflow. The automation is a game changer!"</p>
+        <span>- Emily, CTO</span>
+      </div>
+      <div class="testimonial" data-aos="zoom-in">
+        <img src="https://randomuser.me/api/portraits/men/41.jpg" alt="Client photo" />
+        <p>"The analytics are incredibly insightful. We doubled our efficiency in weeks."</p>
+        <span>- Raj, Product Manager</span>
+      </div>
+      <div class="testimonial" data-aos="fade-left">
+        <img src="https://randomuser.me/api/portraits/men/23.jpg" alt="Client photo" />
+        <p>"Support is responsive and helpful. Highly recommend for any size business."</p>
+        <span>- Tom, CEO</span>
+      </div>
+    </div>
+  </section>
+  <section class="faq" id="faq">
+    <h2 data-aos="fade-up">Frequently Asked Questions</h2>
+    <div class="faq-list">
+      <div class="faq-item" data-aos="fade-right">
+        <h3>How does VectorSense integrate with my business?</h3>
+        <p>Our platform connects easily through APIs and user-friendly dashboards, making setup quick and painless.</p>
+      </div>
+      <div class="faq-item" data-aos="fade-left">
+        <h3>Is my data secure?</h3>
+        <p>Absolutely. We use advanced encryption and follow industry best practices for data protection.</p>
+      </div>
+      <div class="faq-item" data-aos="fade-right">
+        <h3>Can I upgrade my plan later?</h3>
+        <p>Yes! You can upgrade, downgrade, or customize your plan at any time.</p>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <p>&copy; 2025 VectorSense. All rights reserved.</p>
+  </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
